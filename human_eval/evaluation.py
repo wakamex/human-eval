@@ -42,7 +42,7 @@ def evaluate_functional_correctness(
     n_workers: int = 4,
     timeout: float = 3.0,
     problem_file: str = HUMAN_EVAL,
-    ignore_incomplete: bool = False
+    ignore_incomplete: bool = True
 ):
     """
     Evaluates the functional correctness of generated samples, and writes
