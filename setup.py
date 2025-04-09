@@ -6,7 +6,6 @@ from setuptools import setup, find_packages
 
 setup(
     name="human-eval",
-    py_modules=["human-eval"],
     version="1.0.3",
     description="",
     author="OpenAI",
